@@ -58,13 +58,13 @@ header h1, p{
     border-radius: 20px;
 }
 
-.contacts__item{    
+.contacts__list{    
     list-style: none;
     font-size: 14px;    
     padding: 0;
 }
 
-.contacts__item a{
+.contacts__list a{
     color: black;
 }
 
@@ -72,13 +72,13 @@ header h1, p{
     font-size: 12px;
 }
 
-.skill__item{
+.skill__list{
     font-size: 14px;
     padding: 0;
     list-style: none;
 }
 
-.skill__item span{    
+.skill__list span{    
     font-weight: bold;
 }
 
@@ -87,29 +87,29 @@ header h1, p{
     width: 80%;
 }
 
-.experience__item {
+.experience__list {
     padding: 0;
     list-style: none;
 }
 
-.experience__item ul{
+.experience__list ul{
     margin-top: 5px;
 }
 
-.item{
+.experience__list span{
+    font-size: 12px;
+}
+
+.experience__item{
     margin-bottom: 5px;
 }
 
-.item p{
+.experience__item p{
     font-weight: 500;
 }
 
-.item:last-child p{
+.experience__item:last-child p{
     color: #595959;
-}
-
-.experience__item span{
-    font-size: 12px;
 }
 
 #code a{
