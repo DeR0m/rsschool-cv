@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+
+.cv{
+    max-width: 800px;
+    margin: 20px auto;    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+header h1, p{
+    margin: 0;
+}
+
+.header__item{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #d5dee6;
+    padding: 20px 20px 20px 60px;
+    border-radius: 20px;
+}
+
+.columns{
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.columns h2{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.columns h3{
+    font-size: 16px;
+    margin: 0;
+}
+
+.column-left{
+    width: 40%;
+    padding: 15px;
+    background-color: #d5dee6;
+    border-radius: 20px;
+}
+
+.contacts__list{    
+    list-style: none;
+    font-size: 14px;    
+    padding: 0;
+}
+
+.contacts__list a{
+    color: black;
+}
+
+#education p{
+    font-size: 12px;
+}
+
+.skill__list{
+    font-size: 14px;
+    padding: 0;
+    list-style: none;
+}
+
+.skill__list span{    
+    font-weight: bold;
+}
+
+
+.column-right{
+    width: 80%;
+}
+
+.experience__list {
+    padding: 0;
+    list-style: none;
+}
+
+.experience__list ul{
+    margin-top: 5px;
+}
+
+.experience__list span{
+    font-size: 12px;
+}
+
+.experience__item{
+    margin-bottom: 5px;
+}
+
+.experience__item p{
+    font-weight: 500;
+}
+
+.experience__item:last-child p{
+    color: #595959;
+}
+
+#code a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    max-width: 800px;
+    display: flex;
+    background-color: #d5dee6;
+    margin: auto;
+    font-family: sans-serif;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+}
+
+.footer__year{
+    padding: 20px;
+}
+
+.footer__link{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0;
+    color: black;
+}
+
+.footer__logo{
+    width: 80px;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: auto;
+}
