@@ -84,7 +84,7 @@ header h1, p{
 
 
 .column-right{
-    width: 80%;
+    width: 60%;
 }
 
 .experience__list {
@@ -117,6 +117,23 @@ header h1, p{
     color: black;
 }
 
+pre {
+    margin: 12px 0;
+    padding: 12px;
+    background: #f0f2f5;
+    border-radius: 6px;
+    overflow-x: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+pre code {
+    white-space: pre;
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
 footer{
     max-width: 800px;
     display: flex;
@@ -144,4 +161,47 @@ footer{
     padding: 20px;
     text-decoration: none;
     margin-left: auto;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header__item {
+        padding: 16px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .columns{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .column-left{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .column-right{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer__logo {
+        margin-left: 0;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
 }
