@@ -116,3 +116,32 @@ header h1, p{
     text-decoration: none;
     color: black;
 }
+
+footer{
+    max-width: 800px;
+    display: flex;
+    background-color: #d5dee6;
+    margin: auto;
+    font-family: sans-serif;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+}
+
+.footer__year{
+    padding: 20px;
+}
+
+.footer__link{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0;
+    color: black;
+}
+
+.footer__logo{
+    width: 80px;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: auto;
+}
