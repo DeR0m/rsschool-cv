@@ -4,8 +4,7 @@ body{
 
 .cv{
     max-width: 800px;
-    margin: 20px auto;
-    padding: 40px;
+    margin: 20px auto;    
 }
 
 header{
@@ -31,4 +30,54 @@ header h1, p{
     background-color: #d5dee6;
     padding: 20px 20px 20px 60px;
     border-radius: 20px;
+}
+
+.columns{
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.columns h2{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.columns h3{
+    font-size: 16px;
+    margin: 0;
+}
+
+.column-left{
+    width: 40%;
+    padding: 15px;
+    background-color: #d5dee6;
+    border-radius: 20px;
+}
+
+.contacts__item{    
+    list-style: none;
+    font-size: 14px;    
+    padding: 0;
+}
+
+.contacts__item a{
+    color: black;
+}
+
+#education p{
+    font-size: 12px;
+}
+
+.skill__item{
+    font-size: 14px;
+    padding: 0;
+    list-style: none;
+}
+
+.skill__item span{    
+    font-weight: bold;
 }
