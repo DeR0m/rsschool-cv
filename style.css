@@ -81,3 +81,38 @@ header h1, p{
 .skill__item span{    
     font-weight: bold;
 }
+
+
+.column-right{
+    width: 80%;
+}
+
+.experience__item {
+    padding: 0;
+    list-style: none;
+}
+
+.experience__item ul{
+    margin-top: 5px;
+}
+
+.item{
+    margin-bottom: 5px;
+}
+
+.item p{
+    font-weight: 500;
+}
+
+.item:last-child p{
+    color: #595959;
+}
+
+.experience__item span{
+    font-size: 12px;
+}
+
+#code a{
+    text-decoration: none;
+    color: black;
+}
